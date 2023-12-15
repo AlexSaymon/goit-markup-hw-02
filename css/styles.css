@@ -1,7 +1,8 @@
 .body {
-  background-color: #fff;
+  background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
+  color: #434455;
 }
 
 .logo {
@@ -15,7 +16,7 @@
   text-transform: uppercase;
 }
 
-.span-logo {
+.span-header {
   color: #2e2f42;
 }
 
@@ -72,7 +73,7 @@ ul {
   background-color: #2e2f42;
 }
 
-.header-1 {
+.header-main {
   font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
@@ -98,7 +99,7 @@ button:focus {
   background-color: #404bbf;
 }
 
-.decription-h3 {
+.decription-headerthree {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -131,7 +132,7 @@ button:focus {
   background-color: #ffffff;
 }
 
-.image-h3 {
+.image-headerthree {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -146,7 +147,7 @@ button:focus {
   color: #434455;
 }
 
-.portfolio-h2 {
+.portfolio-headertwo {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -156,7 +157,7 @@ button:focus {
   color: #2e2f42;
 }
 
-.portfolio-h3 {
+.portfolio-headerthree {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -185,10 +186,10 @@ button:focus {
 .logo-footer {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
-  color: #f4f4fd;
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -197,6 +198,6 @@ button:focus {
   color: #f4f4fd;
 }
 
-.decription-h2 {
+.decription-header {
   visibility: hidden;
 }
