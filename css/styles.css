@@ -7,16 +7,16 @@
 .logo {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
-  color: #2e2f42;
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
-.span-header {
-  color: #4d5ae5;
+.span-logo {
+  color: #2e2f42;
 }
 
 ul {
@@ -44,10 +44,15 @@ ul {
   color: #404bbf;
 }
 
+.nav-header .nav-link:focus {
+  color: #404bbf;
+}
+
 .nav-mail-phone {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  font-style: normal;
 }
 
 .nav-mail-phone .nav-link-mailphone {
@@ -59,32 +64,37 @@ ul {
   color: #404bbf;
 }
 
+.nav-mail-phone .nav-link-mailphone:focus {
+  color: #404bbf;
+}
+
 .main-section {
   background-color: #2e2f42;
 }
 
-.header1 {
+.header-1 {
   font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
   color: #ffffff;
+  text-align: center;
 }
 
 .button {
   background-color: #4d5ae5;
-}
-
-.span-main {
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 
-.button:hover {
+.button:hover,
+button:focus {
   background-color: #404bbf;
 }
 
@@ -114,6 +124,7 @@ ul {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   color: #2e2f42;
+  text-align: center;
 }
 
 .image-group {
@@ -141,6 +152,8 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .portfolio-h3 {
@@ -148,12 +161,14 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  color: #2e2f42;
 }
 
 .portfolio-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  color: #434455;
 }
 
 .footer {
@@ -176,6 +191,10 @@ ul {
   line-height: 1.16;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+
+.span-footer {
+  color: #f4f4fd;
 }
 
 .decription-h2 {
